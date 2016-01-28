@@ -1,0 +1,11 @@
+Some points to note and remember:
+
+1) For now, gevents work better than eventlets. Activate virtual directory and pip install gevent.
+
+2) Remove "default" config file while configuring nginx
+
+3) Running the app: Activate virtualenv and gunicorn --bind 0.0.0.0 wsgi:app
+
+4) See the app running on your_server_ip:8000 (most probably)
+
+
